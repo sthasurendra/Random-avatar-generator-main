@@ -1,0 +1,89 @@
+.app {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .mainContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main {
+    padding: 2rem;
+    padding: 2rem;
+    margin: 2rem 0;
+    max-width: 70%;
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+    .heading {
+      font-family: "Josefin Sans", sans-serif;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 12rem;
+      height: 12rem;
+      background: white;
+      border-radius: 12rem;
+      margin: 1rem auto;
+      display: block;
+      border: 8px solid;
+    }
+
+    .menu {
+      max-width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .generateNextBtn_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      font-family: "Josefin Sans", sans-serif;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .support,
+  .mydetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .support {
+    margin-left: 0.5rem;
+  }
+  .customized-btn {
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+  }
+  .mydetail {
+    margin-right: 0.5rem;
+  }
+
+  .linky {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    color: #f827a0;
+    margin-left: 0.3rem;
+    transition: color 200ms ease-in-out;
+    &:hover {
+      color: #126bff;
+    }
+  }
+}
